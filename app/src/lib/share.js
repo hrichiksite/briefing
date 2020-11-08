@@ -2,7 +2,7 @@ import clipboardCopy from 'clipboard-copy'
 import { trackException } from '../bugs'
 
 export function createLinkForRoom(room) {
-  return `https://brie.fi/ng/${room}`
+  return `briefing-beta.vercel.app/ng/${room}`
 }
 
 export async function shareLink(url, {
